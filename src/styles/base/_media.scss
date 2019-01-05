@@ -1,0 +1,44 @@
+@media only screen and (min-width: 361px) {
+  /* Styles */
+  .dicesize {
+    font-size: 8em;
+  }
+  .iconstatus {
+    display: inline;
+  }
+  .sbtxtsz {
+    font-size: $xl-size;
+  }
+  .sbtxtsz_mini {
+    font-size: $l-size;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* Styles */
+  .sbtxtsz {
+    font-size: $l-size;
+  }
+  .sbtxtsz_mini {
+    font-size: $m-size;
+  }
+  .iconstatus {
+    display: none;
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 360px) {
+  /* Styles */
+  .dicesize {
+    font-size: 4em;
+  }
+  .iconstatus {
+    display: none;
+  }
+  .sbtxtsz {
+    font-size: $m-size;
+  }
+  .sbtxtsz_mini {
+    font-size: $s-size;
+  }
+}

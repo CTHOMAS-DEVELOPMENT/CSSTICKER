@@ -1,0 +1,29 @@
+.btn {
+  background-color: Crimson;
+  border-radius: $border-radius;
+  color: white;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: $colorface;
+  color: White;
+}
+
+.content {
+  display: none;
+  margin: 1em 0;
+}
+
+.content.active,
+.no-js .content {
+  display: block;
+}
+
+//Classes for the SVG icons inside the button
+.svgicon {
+  color: yellow;
+  font-size: $li-size;
+}

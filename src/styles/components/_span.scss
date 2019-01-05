@@ -1,0 +1,17 @@
+.displayplayer {
+  padding: 10px;
+  display: inline-block;
+  border-radius: $border-radius;
+  border: 0;
+  margin: 2px;
+  background: $colorface;
+  color: white;
+  width: auto;
+  height: auto;
+  box-sizing: content-box;
+}
+.live {
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+}
