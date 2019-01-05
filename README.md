@@ -8,7 +8,7 @@ Type 'npm run dev-server' in the root directory where the package.json file.
 
 The application will run at: http://localhost:8080/
 
-In the project directory, you can run the [Pig game demo](http://painstaking-apples.surge.sh/) 
+In the project directory, you can run the [Pig game demo](http://minor-linen.surge.sh/) 
 
 ### Game Rules
 
